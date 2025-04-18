@@ -1,0 +1,21 @@
+body{
+    background-image: url('./asserts/Welcome.png');
+}
+h1{
+    color: crimson;
+}
+.one{
+    color:rgb(183, 255, 0);
+}
+#two{
+    color: blue;
+}
+.one{
+   color: aqua;
+}
+.two{
+     color: black;
+}
+.three{
+    background-image: url('./asserts/Welcome.png');
+}
