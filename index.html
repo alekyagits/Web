@@ -5,57 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Style.css">
+    <style>
+        body {background-image: url('./asserts/Welcome.png');
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Scales the image to cover the entire background */
+    background-position: center; /* Centers the image */ };
+    </style>
 </head>
 <body>
+    
     <!-- <div class="container">
         <img src="./asserts/Welcome.png" alt="welcomepage" class="image">
     </div> -->
     <h1 style="text-align: center;">WELCOME TO HOME PAGE</h1>
-    <p class="back">
+    <div class="container1" style="background-color: bisque;">
+        <img src="./asserts/readthis.png" alt="readthis" width="150px" height="150px">
             📌 Note for Students: <br>
-            Please use the Login Page if you already have an account. <br>
-            If you're new, head to the Registration Page to create your student profile before logging in. <br>
-            Make sure to enter accurate details during registration to avoid any issues accessing your account.
-    </p>
-    <div class="block">
+           
+            <ol>
+                <li>Please use the Login Page if you already have an account.</li> <br>
+                <li>If you're new, head to the Registration Page to create your student profile before logging in.</li> <br>
+                <li>Make sure to enter accurate details during registration to avoid any issues accessing your account.</li>
+            </ol>
+    </div>
+    <br>
+    
+    <div class="container1">
+    <div class="block" style="background-color: azure;">
         <img src="./asserts/registration.jpg" alt="welcome" class="image1">
-        <h1>RegistrationPage</h1>
+        <h1 style="text-align: center;">RegistrationPage</h1>
         <p>
             The Registration Page allows new students to create an account by providing their personal and academic details. <br>
             Please ensure all information entered is accurate and complete, as it will be used for future communication and access to academic services.
-        </p> 
-        <p>
-            🛠️ What you'll need: <br>
-                Full Name <br>
-                Student ID (if provided) <br>
-                Email Address <br>
-                Password <br>
-                Course or Department Info <br>
+            <br>🛠️ What you'll need:
+            <ol>
+                <li>Full Name</li> 
+                <li> Student ID (if provided)</li>
+                <li> Email Address</li> 
+                <li> Password </li>
+                <li>Course or Department Info </li>
+            </ol>
                 ⏳ The process only takes a few minutes! <br>
         </p>
+        <div class="middle">
         <a href="./RegistrationPage.html"> 
-            <button style="background-color: black; color: white;">Register</button>
+            <button style="background-color: black; color: white;width: 60px;height: 30px;">Register</button>
         </a>
+    </div>
 
     </div>
-    <div class="block">
+    <div class="block" style="background-color: rgb(175, 219, 240);">
         <img src="./asserts/login.jpg" alt="welcome" class="image1">
-        <h1>Login Page</h1>
+        <h1 style="text-align: center;">Login Page</h1>
         <p>
             The Login Page is for registered students to access their account. Use the email and password you provided during registration.
                      <br>
-                    💡 Tips:  <br>
-                    If you forget your password, click the “Forgot password?” link.  <br>
-                    Make sure your credentials are correct to avoid login issues.  <br>
-                    For security, don’t share your login details with anyone.  <br>
+                    💡 Tips: 
+                    <ul>
+                    <li>If you forget your password, click the “Forgot password?” link.</li>  
+                    <li>Make sure your credentials are correct to avoid login issues. </li> 
+                    <li>For security, don’t share your login details with anyone. </li> 
+                </ul>
         </p>
-        
+        <div class="middle">
             <a href="./LoginPage.html"> 
-                <button style="background-color: black; color: white;">Login</button>
+                <button style="background-color: rgba(16, 16, 15, 0.922); color: white;width: 60px;height: 40px ;" >Login</button>
             </a>
-        
+        </div>
 
     </div>
+</div>
     
 </body>
 </html>
